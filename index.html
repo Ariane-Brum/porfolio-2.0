@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <meta
+      name="description"
+      content="Olá me chamo Ariane Brum, sou uma desenvolvedora Front-end em busca de uma oportunidade. Portfólio feito para apresentar algumas informações e projetos feitos por mim!"
+    />
+    <link rel="icon" href="./favicon-1.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4c6eff3a7a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link rel="preload" href="./css/style.min.css" as="style" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+
+    <script>
+      document.documentElement.classList.add("javascript");
+    </script>
+  </head>
+  <body>
+    <header class="header-bg">
+      <div class="header container">
+        <a href="./" class="header-logo">
+          <img src="img/logo.svg" width="141" height="32" alt="Ariane" />
+        </a>
+
+        <nav aria-label="Primária" class="menu-desktop">
+          <ul class="header-menu poppins-18 color-0">
+            <li><a href="#quem-sou">Quem sou</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#conhecimentos">Conhecimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <nav class="menu-mobile">
+          <ul class="menu-items" id="menu">
+            <li class="left-panel">
+              <a href="#quem-sou" class="menu-item">
+                <i class="fa-solid fa-address-card"></i>
+              </a>
+              <a href="#projetos" class="menu-item">
+                <i class="fa-solid fa-laptop-code"></i>
+              </a>
+            </li>
+            <li class="right-panel">
+              <a href="#conhecimentos" class="menu-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </a>
+              <a href="#contato" class="menu-item">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+          <div
+            class="toggle-btn poppins-16-b"
+            aria-label="Abrir Menu"
+            aria-controls="menu"
+          >
+            Menu
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="intro-bg top-bottom">
+      <div class="intro container">
+        <div class="intro-content">
+          <div class="intro-name delayMediumReveal load-hidden">
+            <span class="roboto-24 color-5 span">Olá, eu sou</span>
+            <h1 class="poppins-64 color-0">
+              Ariane Brum<span class="color-p1">.</span>
+            </h1>
+            <span class="roboto-24 color-5 typewriter"
+              >Dev Front-end e Estudante de ADS</span
+            >
+          </div>
+          <div class="cv-container">
+            <a
+              href="https://drive.google.com/file/d/1pXoT9y7LPRAcYS6c4nxvGGBajDPoxpMk/view?usp=sharing"
+              class="poppins-16-b color-5"
+              target="_blank"
+            >
+              <i class="fa-solid fa-file-arrow-down"></i>Download Cv
+            </a>
+
+            <a
+              href="https://drive.google.com/file/d/1TD7rWtoUM81pjfEuq6Y_WZUmoFtsBWT5/view?usp=sharing"
+              class="poppins-16-b color-5"
+              target="_blank"
+            >
+              <i class="fa-solid fa-file-arrow-down"></i>Black Cv
+            </a>
+          </div>
+        </div>
+
+        <div class="intro-img">
+          <img
+            src="./img/img-introducao.avif"
+            alt="Foto de Ariane Brum"
+            width="350"
+            height="368"
+            srcset="
+              ./img/img-introducao.avif 350w,
+              ./img/img-introducao.avif 200w
+            "
+            sizes="(min-width: 360px) 50vw, 100vw"
+          />
+          />
+        </div>
+      </div>
+    </main>
+
+    <article class="about-bg" id="quem-sou">
+      <div class="about container top-bottom">
+        <div class="about-img">
+          <img
+            src="./img/ariane.gif"
+            width="600"
+            height="600"
+            alt="Gif de uma menina piscando."
+          />
+
+          <picture class="js">
+            <source
+              media="(max-width: 800px)"
+              srcset="img/icones/js-1.svg"
+              width="50"
+              height="50"
+            />
+            <img
+              class="js-1"
+              src="img/icones/js-1.svg"
+              width="80"
+              height="80"
+              alt="Icone Js"
+            />
+          </picture>
+          <picture class="html">
+            <source
+              media="(max-width: 800px)"
+              srcset="img/icones/html-1.svg"
+              width="50"
+              height="50"
+            />
+            <img
+              src="img/icones/html-1.svg"
+              width="80"
+              height="80"
+              alt="Icone HTML"
+            />
+          </picture>
+          <picture class="css">
+            <source
+              media="(max-width: 800px)"
+              srcset="img/icones/css-1.svg"
+              width="50"
+              height="50"
+            />
+            <img
+              src="img/icones/css-1.svg"
+              width="80"
+              height="80"
+              alt="Icone CSS"
+            />
+          </picture>
+        </div>
+
+        <div class="about-content">
+          <h2 class="poppins-64 color-0 load-hidden delayLargeReveal">
+            Quem sou eu<span class="color-p1">.</span>
+          </h2>
+          <p class="roboto-24 color-5 delayExtraBigReveal load-hidden">
+            Estudante de
+            <strong class="color-p2"
+              >Análise e desenvolvimento de sistemas</strong
+            >
+            , estou no 5º semestre. Apaixonada por tecnologia, em busca de uma
+            oportunidade na área de
+            <strong class="color-p2">Desenvolvimento Web</strong> .
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <article class="top-bottom portfolio" id="projetos">
+      <div class="container">
+        <h2 class="poppins-64 color-11">
+          Projetos<span class="color-p1">.</span>
+        </h2>
+      </div>
+      <ul class="projects-list">
+        <li class="projects-item">
+          <a href="./projetos/pokegallery.html">
+            <img
+              src="./img/tela-pokegallery-1.avif"
+              alt="Foto do projeto Pokegallery"
+              width="1020"
+              height="678"
+            />
+            <h3 class="poppins-32 color-11">PokeGallery</h3>
+          </a>
+        </li>
+
+        <li class="projects-item">
+          <a href="./projetos/nintendo.html">
+            <img
+              src="./img/tela-nintendo.avif"
+              alt="Foto do projeto NintendoFlix"
+              width="1020"
+              height="679"
+            />
+            <h3 class="poppins-32 color-11">NintendoFlix</h3>
+          </a>
+        </li>
+
+        <li class="projects-item">
+          <a href="./projetos/landing-page.html">
+            <img
+              src="./img/tela-landing.avif"
+              alt="Foto do projeto Signup-form"
+              width="1020"
+              height="678"
+            />
+            <h3 class="poppins-32 color-11">Landing Page</h3>
+          </a>
+        </li>
+      </ul>
+      <div class="repo">
+        <a
+          href="https://github.com/Ariane-Brum?tab=repositories"
+          target="_blank"
+          >Repositórios no Github</a
+        >
+      </div>
+    </article>
+
+    <article class="skills-bg" id="conhecimentos">
+      <div class="skills container top-bottom">
+        <h2 class="poppins-64 color-0">
+          Conhecimentos<span class="color-p1">.</span>
+        </h2>
+
+        <div class="skills-content">
+          <div class="skills-item intervalCardReveal load-hidden">
+            <img
+              class="img-y"
+              src="./img/dec/dec-y.svg"
+              width="8"
+              height="296"
+              alt=""
+            />
+
+            <h3 class="poppins-16 color-0 school">
+              <i class="fa-solid fa-graduation-cap"></i>Formação
+            </h3>
+            <div class="education">
+              <div class="education-item">
+                <span class="roboto-14 color-5">Técnologo</span>
+                <h4 class="poppins-18 color-0">
+                  Análise e desenvolvimento de sistemas
+                </h4>
+                <span class="roboto-14 color-5">Qi Faculdade</span>
+              </div>
+              <div class="education-item">
+                <span class="roboto-14 color-6">Técnico</span>
+                <h4 class="poppins-18 color-0">
+                  Curso técnico informática para internet
+                </h4>
+                <span class="roboto-14 color-5">Col. Protásio Alves</span>
+              </div>
+            </div>
+            <img src="./img/dec/dec-x.svg" width="494" height="8" alt="" />
+          </div>
+          <div class="skills-item intervalCardReveal load-hidden">
+            <div class="experience">
+              <h3 class="poppins-16 color-0 exp">
+                <i class="fa-solid fa-briefcase"></i>Experiência
+              </h3>
+              <p class="roboto-16 color-5">
+                Estou sempre em busca de melhores práticas e também em busca de
+                aprender/experimentar novas tecnologias. Minhas experiências
+                atuais são os projetos que fiz, e os que ainda estou
+                desenvolvendo. Eles podem ser encontrados no meu
+                <a href="./">Github</a>
+              </p>
+              <img src="./img/dec/dec-x.svg" width="494" height="8" alt="" />
+            </div>
+          </div>
+
+          <div class="skills-item intervalCardReveal load-hidden">
+            <h3 class="poppins-16 color-0 courses">
+              <i class="fa-solid fa-book-open-reader"></i>Cursos/especializações
+            </h3>
+            <ul class="specs">
+              <li class="roboto-18 color-5">
+                Web Design Completo <span class="roboto-18 color-7">44h</span>
+              </li>
+              <li class="roboto-18 color-5">
+                CSS com Sass <span class="roboto-18 color-7">12h</span>
+              </li>
+              <li class="roboto-18 color-5">
+                React Completo <span class="roboto-18 color-7">36h</span>
+              </li>
+              <li class="roboto-18 color-5">
+                Front-end do Zero ao Profissional
+                <span class="roboto-18 color-7">36h</span>
+              </li>
+              <li class="roboto-18 color-5">
+                HTML e CSS para Iniciantes
+                <span class="roboto-18 color-7">23h</span>
+              </li>
+              <li class="roboto-18 color-5">
+                JavaScript Completo ES6
+                <span class="roboto-18 color-7">74h</span>
+              </li>
+              <li class="roboto-18 color-5">
+                Automação Front-end com NPM
+                <span class="roboto-18 color-7">8h</span>
+              </li>
+            </ul>
+            <img
+              class="img-y"
+              src="./img/dec/dec-y-1.svg"
+              width="8"
+              height="414"
+              alt=""
+            />
+          </div>
+
+          <div class="skills-item intervalCardReveal load-hidden">
+            <h3 class="poppins-16 color-0 tecs">
+              <i class="fa-solid fa-code"></i>Tecnologia
+            </h3>
+            <ul class="tec">
+              <li>
+                <img
+                  src="./img/icones/html-1.svg"
+                  width="80"
+                  height="80"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/icones/css-1.svg"
+                  width="80"
+                  height="80"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/icones/js-1.svg"
+                  width="80"
+                  height="80"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/icones/react.svg"
+                  width="77"
+                  height="77"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/icones/sass.svg"
+                  width="77"
+                  height="77"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/icones/github-2.svg"
+                  width="77"
+                  height="77"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <footer class="footer-bg" id="contato">
+      <div class="footer container top-bottom">
+        <div class="footer-logo">
+          <img src="./img/logo.svg" width="141" height="32" alt="" />
+        </div>
+
+        <div class="footer-contact">
+          <h3 class="roboto-24 color-0">Contato</h3>
+          <ul class="roboto-18 color-5">
+            <li><a href="tel:+5551981265688">+55 51 9812-65688</a></li>
+            <li>
+              <a href="mailto:arianebrum27@gmail.com">arianebrum27@gmail.com</a>
+            </li>
+            <li>Porto Alegre - Partenon</li>
+            <li>Rio Grande do Sul - RS</li>
+          </ul>
+
+          <div class="footer-social">
+            <a href="https://github.com/Ariane-Brum" target="_blank">
+              <img
+                src="./img/icones/github-1.svg"
+                width="40"
+                height="40"
+                alt="Github"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ariane-brum-dos-santos/"
+              target="_blank"
+            >
+              <img
+                src="./img/icones/linkedin-1.svg"
+                width="40"
+                height="40"
+                alt="Linkedin"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-info">
+          <h3 class="roboto-24 color-0">Informações</h3>
+          <nav aria-label="Secundária">
+            <ul class="footer-menu poppins-18 color-5">
+              <li><a href="#quem-sou">Quem sou</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#conhecimentos">Conhecimentos</a></li>
+            </ul>
+          </nav>
+        </div>
+        <p class="footer-copy roboto-18 color-6">
+          Criado com amor <i class="fa-solid fa-heart"></i> por Ariane Brum
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
