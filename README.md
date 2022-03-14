@@ -6,7 +6,7 @@
   Esta é a 2ª e mais recente versão do meu portfólio pessoal. Criado com o objetivo de apresentar um pouco sobre mim e meus conhecimentos. Além de mostrar meus projetos ao decorrer de minha carreira.
 </h4>
 
-![Resultado final do projeto](img/tela-portfolio-pessoal.png)
+![Resultado final do projeto](img/ogimage.png)
 
 <h4 align="center"><a href="https://porfolio-ariane.vercel.app/">Clique para visitar o projeto</a></h4>
 
