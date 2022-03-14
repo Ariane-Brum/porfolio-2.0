@@ -1,0 +1,115 @@
+.portfolio {
+  background: url("../../img/dec/top-right.svg") no-repeat top 40px right 40px;
+}
+
+.portfolio h2 {
+  margin-bottom: 2.5rem;
+}
+
+.projects-list {
+  display: flex;
+  gap: 40px;
+  overflow-x: auto;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+  padding: 0 1.25rem 1.25rem 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.projects-list::-webkit-scrollbar {
+  width: 12px;
+}
+
+.projects-list::-webkit-scrollbar-track {
+  background: var(--color-p0);
+}
+
+.projects-list::-webkit-scrollbar-thumb {
+  background: var(--color-p1);
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0 0 0 /20%);
+}
+
+.projects-item {
+  min-width: 400px;
+  flex: 1;
+}
+
+.projects-item img {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  filter: drop-shadow(1px 1px 1px #333);
+}
+
+.projects-item h3 {
+  display: flex;
+  align-items: center;
+}
+
+.projects-item h3::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background: var(--color-p1);
+  margin-right: 0.5rem;
+  transition: width 0.2s;
+}
+
+.projects-item a:hover h3::before {
+  width: 24px;
+}
+
+.repo {
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--color-p5);
+  margin-top: 1.25rem;
+}
+
+.repo a {
+  position: relative;
+}
+
+.repo a::after {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 0%;
+  background: var(--color-p1);
+  margin-top: 0.25rem;
+  transition: 0.3s;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.repo a:hover:after,
+.repo a.ativo::after {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .projects-item img {
+    width: 540px;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolio {
+    background: none;
+  }
+
+  .portfolio h2 {
+    font-size: 2.25rem;
+  }
+
+  .projects-item h3 {
+    font-size: 1.5rem;
+  }
+}
