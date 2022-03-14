@@ -1,0 +1,58 @@
+.poppins-12 {
+  font: 400 0.75rem/1.35 "Poppins", sans-serif;
+}
+
+.roboto-14 {
+  font: 400 0.875rem/1.43 "Roboto", sans-serif;
+}
+
+.poppins-16,
+.poppins-16-b {
+  font: 400 1rem/1.5 "Poppins", sans-serif;
+}
+
+.poppins-16-b {
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.roboto-16 {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+.poppins-18,
+.poppins-18-b {
+  font: 400 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+.roboto-18 {
+  font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+.poppins-24 {
+  font: 400 1.5rem/1.5 "Poppins", sans-serif;
+}
+
+.roboto-24,
+.roboto-24-b {
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.roboto-24-b {
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.poppins-32 {
+  font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.roboto-32 {
+  font: 500 2rem/1.25 "Roboto", sans-serif;
+}
+
+.poppins-64 {
+  font: 600 4rem/1.125 "Poppins", sans-serif;
+}
