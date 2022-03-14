@@ -48,5 +48,3 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
     </td>
   </tr>
 </table>
-
-Desenvolvido com :hearts: por Ariane Brum.
