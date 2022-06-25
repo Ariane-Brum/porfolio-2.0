@@ -8,7 +8,6 @@
 
 ![Resultado final do projeto](img/ogimage.png)
 
-<h4 align="center"><a href="https://porfolio-ariane.vercel.app/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 
